@@ -2,7 +2,7 @@
 
 <h1 align="center">Microsoft  Activation  Scripts (MAS)</h1>
 
-<p align="center">A Windows and Office activator using HWID / Ohook / KMS38 / Online KMS activation methods, with a focus on open-source code and fewer antivirus detections.</p>
+<p align="center">A Windows and Office activator using HWID / Ohook / KMS38 / Online KMS activation methods, focusing on open-source code and fewer antivirus detections.</p>
 
 <p align="center">
     <a href="https://discord.gg/tVFN4N84PP"><img src="https://img.shields.io/discord/746721520931569757?style=social&logo=discord" alt="Chat with us without signup" title="Chat with us without signup"></a>
@@ -12,7 +12,7 @@
 
 <hr>
 
-## Download / How to use it?
+## How to use it / Download?
 
 ### Method 1 - PowerShell (Recommended)
 
@@ -25,7 +25,7 @@ or
 ```
 irm https://massgrave.dev/get | iex
 ```
--   You will see the activation options. Follow the on-screen instructions.
+-   You will see the activation types for either Windows or Office. Follow the on-screen instructions.
 -   That's all.
 
 ---
@@ -33,9 +33,9 @@ irm https://massgrave.dev/get | iex
 - On older Windows builds you may need to run the below command before,  
 `[Net.ServicePointManager]::SecurityProtocol=[Net.SecurityProtocolType]::Tls12`  
 - The Powershell method does not work on Windows 7. Use the Method 2 - Traditional instead.  
-- The URL get.activated.win may be blocked by some DNS services because it is a new domain.
+- The URL <b><i>get.activated.win</i></b> may be blocked by some DNS services because it is a new domain.
 
-### Method 2 - Traditional
+### Method 2 - Traditional (Local Download method)
 
 -   Download the file under the code button from [GitHub](https://github.com/massgravel/Microsoft-Activation-Scripts) or [Bitbucket](https://bitbucket.org/WindowsAddict/microsoft-activation-scripts)
 -   Right-click on the downloaded zip file and extract
